@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("pointTable").getElementsByTagName('tbody')[0];
 
-    fetch("https://raw.githubusercontent.com/raffzhm/geogis1214005/main/gjsonya/fullmap.geojson") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("./gjsonya/fullmap1.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
