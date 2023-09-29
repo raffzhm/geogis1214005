@@ -52,10 +52,10 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for LineString GeoJSON using the raw URL
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/gisfix/master/TUGAS1/1214053-RAULMAHYA/geojsonLinestring.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raffzhm/geogis1214005/main/gjsonya/fullmap.geojson', map, document.querySelector('table'));
 
 // Call the function for Polygon GeoJSON
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/gisfix/master/TUGAS1/1214053-RAULMAHYA/geojsonPloygon.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raffzhm/geogis1214005/main/gjsonya/fullmap.geojson', map, document.querySelector('table'));
 
 // Call the function for Point GeoJSON
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raulmahya123/gisfix/master/TUGAS1/1214053-RAULMAHYA/goejsondrawPoint.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/raffzhm/geogis1214005/main/gjsonya/fullmap.geojson', map, document.querySelector('table'));
